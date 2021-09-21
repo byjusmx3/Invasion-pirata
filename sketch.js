@@ -198,7 +198,7 @@ function gameOver() {
   swal(
     {
       title: `¡Fin de juego!`,
-      text: "¡Fin del juego!",
+      text: "¡Gracias por jugar!",
       imageUrl:
         "https://raw.githubusercontent.com/whitehatjr/PiratesInvasion/main/assets/boat.png",
       imageSize: "150x150",
