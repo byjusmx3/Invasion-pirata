@@ -197,12 +197,12 @@ function keyReleased() {
 function gameOver() {
   swal(
     {
-      title: `Game Over!!!`,
-      text: "Thanks for playing!!",
+      title: `¡Fin de juego!`,
+      text: "¡Fin del juego!",
       imageUrl:
         "https://raw.githubusercontent.com/whitehatjr/PiratesInvasion/main/assets/boat.png",
       imageSize: "150x150",
-      confirmButtonText: "Play Again"
+      confirmButtonText: "Jugar de nuevo"
     },
     function(isConfirm) {
       if (isConfirm) {
