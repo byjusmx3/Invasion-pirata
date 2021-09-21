@@ -111,7 +111,7 @@ function draw() {
 
   fill("#6d4c41");
   textSize(40);
-  text(`Puntaje:${score}`, width - 200, 50);
+  text(`Puntuación:${score}`, width - 200, 50);
   textAlign(CENTER, CENTER);
 }
 
@@ -168,7 +168,7 @@ function showBoats() {
         boats[i].animate();
         var collision = Matter.SAT.collides(tower.body, boats[i].body);
         if (collision.collided && !boats[i].isBroken) {
-          //Added isLaughing flag and setting isLaughing to true
+          //Se ha añadido la bandera isLaughing y se ha puesto isLaughing a true
           if (!isLaughing && !pirateLaughSound.isPlaying()) {
             pirateLaughSound.play();
             isLaughing = true;
